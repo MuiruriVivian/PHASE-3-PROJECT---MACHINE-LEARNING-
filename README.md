@@ -34,4 +34,10 @@ Categorical: Warehouse_block, Mode_of_Shipment, Product_importance, Gender
 
 Binary: Reached_on_Time_Y_N
 
+Logistics regression model
+
+The logistic regression model achieves an accuracy of 63.09%, with better performance for Class 1 (precision: 66%, recall: 77%) compared to Class 0 (precision: 56%, recall: 43%). The weighted F1-score is 0.62, reflecting moderate overall classification performance, though class imbalance may favor Class 1. Regression metrics indicate poor fit, with negative R² values (-0.5562 for training, -0.5295 for testing) and moderate MSE (0.3742 train, 0.3691 test), suggesting the model struggles to explain variability in the data. To improve, consider addressing class imbalance, enhancing feature engineering, tuning hyperparameters, and exploring alternative models like Random Forests or Gradient Boosting.
+
+
+
 
